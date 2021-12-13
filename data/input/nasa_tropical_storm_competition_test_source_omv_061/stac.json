@@ -1,0 +1,69 @@
+{
+    "assets": {
+        "features": {
+            "href": "features.json",
+            "title": "Image Features",
+            "type": "application/json"
+        },
+        "image": {
+            "href": "image.jpg",
+            "title": "Hurricane Image",
+            "type": "image/jpeg"
+        }
+    },
+    "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "collection": "nasa_tropical_storm_competition_test_source",
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    -180,
+                    -90.0
+                ],
+                [
+                    -180,
+                    90.0
+                ],
+                [
+                    180.0,
+                    90.0
+                ],
+                [
+                    180.0,
+                    -90.0
+                ],
+                [
+                    -180,
+                    -90.0
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "id": "nasa_tropical_storm_competition_test_source_omv_061",
+    "links": [
+        {
+            "href": "../collection.json",
+            "rel": "collection"
+        },
+        {
+            "href": "../collection.json",
+            "rel": "parent"
+        }
+    ],
+    "properties": {
+        "anon:size": 180,
+        "anon:warning": "WARNING: The item geometries in this collection have been anonymized such that they exist somewhere within the bounding box listed within that item's geometry.",
+        "datetime": "2010-01-01T00:00:00+0000"
+    },
+    "stac_extensions": [
+        "anonymized-location"
+    ],
+    "stac_version": "1.0.0-beta.2",
+    "type": "Feature"
+}
